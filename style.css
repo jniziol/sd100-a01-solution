@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto'
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main {
+  box-sizing: content-box;
+  background-color: #c2fbc2;
+  width: 300px;
+  border: 2px solid green;
+  margin: 5px auto;
+  padding: 10px;
+}
+
+section {
+  border: 2px solid green;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.img-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 30px;
+  font-family: "Secular One";
+  color: green;
+}
+
+.general-info {
+  font-style: italic;
+}
+
